@@ -193,6 +193,7 @@ button {
 @media screen and (max-width: 500px) {
     .main {
       padding: 20px;
+      overflow-x: hidden;
     }
     .heart-img {
       display: flex;
@@ -224,9 +225,10 @@ button {
 
   @media screen and (max-width: 580px) {
     .modal-content {
-        align-items: center;
+    align-items: center;
       margin: 20% auto;
-      width: 90%;
+      width: 80%;
+
     }
     .heart-break{
         align-items: center;
